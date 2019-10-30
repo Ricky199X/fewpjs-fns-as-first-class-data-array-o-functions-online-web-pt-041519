@@ -5,3 +5,11 @@ function wakeDog(dogName, dogBreed) {
 function leashDog(dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`;
 }
+
+function walkToPark(dogName, dogBreed) {
+  return `Walk to the park with ${dogName} the ${dogBreed}`;
+}
+
+function throwFrisbee(dogName, dogBreed) {
+  return `Throw the frisbee for ${dogName} the ${dogBreed}`;
+}
