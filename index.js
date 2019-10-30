@@ -21,3 +21,5 @@ function walkHome(dogName, dogBreed) {
 function unleashDog(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
+
+routine = [wakeDog(), leashDog(), walkToPark(), throwFrisbee(), walkHome(), unleashDog()]
