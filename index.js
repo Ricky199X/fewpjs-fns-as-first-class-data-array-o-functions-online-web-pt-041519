@@ -13,3 +13,7 @@ function walkToPark(dogName, dogBreed) {
 function throwFrisbee(dogName, dogBreed) {
   return `Throw the frisbee for ${dogName} the ${dogBreed}`;
 }
+
+function walkHome(dogName, dogBreed) {
+  return `Walk home with ${dogName} the ${dogBreed}`;
+}
